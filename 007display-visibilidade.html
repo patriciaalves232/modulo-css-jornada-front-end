@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Display e visibilidade</title>
+  <style>
+    p {
+      color: red;
+    }
+
+    p.exp-1 {
+      display: block;
+    }
+
+    p.exp-2 {
+      display: block;
+
+    }
+
+    p.exp-3 {
+      display: inline-block;
+    }
+
+    .aparecer:hover p.exp-4 {}
+
+    p.exp-4 {
+      display: none;
+    }
+
+    span {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <span>
+    Abc
+  </span>
+  <p class="exp-1">
+    Texto
+  </p>
+  <div>
+    <p class="exp-2">
+      Texto
+    </p>
+  </div>
+  texto 2 abc
+  <p class="exp-3">
+    Texto 2
+  </p>
+  texto 2 abc
+  <p class="exp-4">
+    Texto
+  </p>
+
+
+</body>
+
+</html>
